@@ -1,7 +1,11 @@
+import Sidebar from "@/components/Sidebar";
+import ThemeSwitcher from "@/components/Theme/ThemeSwitcher";
+
 export default function Home() {
   return (
     <>
-      <h1>No Hello World!</h1>
+      <Sidebar></Sidebar>
+      <ThemeSwitcher></ThemeSwitcher>
     </>
   )
 }
