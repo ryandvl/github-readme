@@ -14,15 +14,15 @@ export const metadata: Metadata = {
     description: 'testando',
     images: [
       {
-        url: 'https://nextjs.org/og.png',
+        url: 'https://ryandvl.github.io/opengraph-image.png',
         width: 800,
         height: 600,
       },
       {
-        url: 'https://nextjs.org/og-alt.png',
+        url: 'https://ryandvl.github.io/opengraph-image.png',
         width: 1800,
         height: 1600,
-        alt: 'My custom alt',
+        alt: 'ata',
       },
     ],
     type: 'website',
