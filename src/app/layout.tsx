@@ -1,25 +1,19 @@
-import ThemeProvider from "@/components/Theme/ThemeContext"
 import "@/styles/globals.css"
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import { ReactNode } from "react"
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Home • DOS Card Game',
-  description: 'DOS Card Game website, play with friends!'
+  title: 'github-readme',
+  description: 'Generated custom images to my profile.'
 }
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <ThemeProvider>
-      <body className={`${inter.className}`}>
-        {children}
-      </body>
-    </ThemeProvider>
+    <body className={`${inter.className}`}>
+      {children}
+    </body>
   )
 }
