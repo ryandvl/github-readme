@@ -8,6 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   // title: 'github-readme',
   // description: 'about',
+  metadataBase: new URL("https://ryandvl.github.io"),
   openGraph: {
     title: 'github-readme',
     description: 'testando',
