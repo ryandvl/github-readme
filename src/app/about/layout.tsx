@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://ryandvl.github.io"),
   openGraph: {
     title: 'github-readme',
-    description: 'testando',
+    description: 'testando, e por que ainda ta o link?',
     images: [
       {
         url: 'https://ryandvl.github.io/opengraph-image.png',
