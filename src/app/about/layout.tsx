@@ -6,8 +6,26 @@ import { ReactNode } from "react"
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'github-readme',
-  description: 'Generated custom images to my profile.'
+  // title: 'github-readme',
+  // description: 'about',
+  openGraph: {
+    title: 'github-readme',
+    description: 'testando',
+    images: [
+      {
+        url: 'https://nextjs.org/og.png',
+        width: 800,
+        height: 600,
+      },
+      {
+        url: 'https://nextjs.org/og-alt.png',
+        width: 1800,
+        height: 1600,
+        alt: 'My custom alt',
+      },
+    ],
+    type: 'website',
+  },
 }
 
 export default function RootLayout({ children }: { children: ReactNode }) {
