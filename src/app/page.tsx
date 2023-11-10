@@ -1,3 +1,5 @@
+import "./umaimagem.png"
+
 export default function Home() {
   return (
     <>
